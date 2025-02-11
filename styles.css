@@ -1,1 +1,66 @@
 /*  your css code here. If applicable */
+.container{
+	min-height:400px;
+	min-width:750px;
+	background-color:#f6f5f5;
+	display:flex;
+	border-radius:5px;
+	flex-direction:column;
+	flex-wrap:wrap;
+	
+}
+.head{
+	height:80px;
+	width:100;
+	background-color:#021e29;
+	color:white;
+	font-family:bold;
+	text-align:center;
+	border-radius:5px;
+	/* margin:10px; */
+}
+.body{
+	display:flex;
+	flex-direction:row;
+	/* space-between:2px;
+	 */
+	/* justify-content:space-between; */
+	
+	margin:10px;
+	
+	
+}
+.item1{
+height:200px;
+	width:200px;
+	background-color:#ffffff;
+	border-radius:5px;
+	/* margin-left:16px; */
+	margin:5px;
+	
+	
+}
+
+.item2{
+ height:250px;
+	width:250px;
+	background-color:#ffffff;
+	border-radius:5px;
+		margin:5px;
+}
+
+.item3{
+ min-height:200px;
+	width:250px;
+	background-color:#ffffff;
+	border-radius:5px;
+		margin:5px;
+	
+}
+
+img{
+	height:200px;
+	width:200px;
+	margin:18px;
+border-radius:5px;
+}
